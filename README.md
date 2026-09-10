@@ -1,48 +1,56 @@
 # DeadVideo
 
-> DeadCommunity product showcase — **no source code**.
+> ◆ DeadCommunity product card — **no source code · no API keys**.
 
-**Role:** Lightweight in-browser video editor
+### ◆ Role
 
-A browser-based video editing experiment for quick cuts and exports without installing heavy desktop editors.
+**Lightweight in-browser video editor**
 
-## Live
+Quick cuts and exports in the browser without installing a heavy desktop editor.
 
-**[https://video.deadcommunity.com](https://video.deadcommunity.com)**
+### ◆ Live
 
-## What it does
+↳ **[https://video.deadcommunity.com](https://video.deadcommunity.com)**
 
-- Client-side oriented editing flows for simple jobs
-- Fast access via dedicated subdomain
-- Part of the DeadCommunity tool suite
+### ◆ What it does
 
-## Who it’s for
+▸ Client-oriented editing for simple jobs
+▸ Dedicated subdomain for fast access
+▸ Part of the DC tool suite
 
-Creators needing quick browser edits
+### ◆ Highlights
 
-## Stack (high level)
+○ Sibling to DeadSound
+○ Designed for short tasks
+○ Live and containerized
+
+### ◆ Who it’s for
+
+▸ Creators needing quick browser edits
+
+### ◆ Stack (high level)
 
 `Web app` · `Docker` · `Nginx` · `Cloudflare Tunnel`
 
-## Status
+### ◆ Status
 
-- **Production:** running on DeadCommunity infrastructure  
-- **Source:** private (not published)  
-- **Operator model:** idea → UI/API → Docker deploy → uptime  
+| ▣ | ○ |
+|:--|:--|
+| Production | Running on DeadCommunity infrastructure |
+| Source | **Private** (not published) |
+| Public surface | This README + live URL only |
+| Operator model | ■ scope → ■ build → ■ containerize → ■ hostname → ■ iterate |
 
+### ◆ Policy
+
+| Included | Not included |
+|:---------|:-------------|
+| Purpose · live link · stack overview | Application source |
+| High-level architecture notes | `.env` · secrets · API keys · tokens |
+| Operator story | Production private configs |
 
 ---
 
-## About this repository
-
-This is a **public product card**, not a source dump.
-
-| Included | Not included |
-|----------|--------------|
-| What the product is | Application source code |
-| Live URL (when public) | `.env`, secrets, API keys |
-| High-level stack | Production private configs |
-
-Index of all products: [deadcommunity-showcase](https://github.com/Semaru47/deadcommunity-showcase)  
-Profile: [github.com/Semaru47](https://github.com/Semaru47) · Site: [deadcommunity.com](https://deadcommunity.com)
-
+↳ Index: [deadcommunity-showcase](https://github.com/Semaru47/deadcommunity-showcase)  
+↳ Profile: [github.com/Semaru47](https://github.com/Semaru47)  
+↳ Brand: [deadcommunity.com](https://deadcommunity.com)
